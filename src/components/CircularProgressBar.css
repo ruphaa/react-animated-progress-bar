@@ -1,0 +1,21 @@
+.bar{
+    width:100%;
+  }
+.bar circle{
+    stroke-dasharray: 0;
+}
+.progress__meter .progress__value{
+    fill: none;
+}
+.progress__value{
+    stroke-linecap: round;
+}
+.bar{
+    transform: rotate(-90deg);
+}
+.text{
+    font-size: 20px;
+    dominant-baseline: middle;
+    text-anchor: middle;
+}
+
